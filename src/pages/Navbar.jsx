@@ -7,10 +7,11 @@ import Logo from '../assets/logo.png';
 const Navbar = () => {
   return (
     <nav className="bg-[#56B0CA] text-white py-3">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container m-auto flex justify-between items-center  mt-0 mb-0">
+         <a href="/" className=""><img className='w-32 h-32 ' src={Logo} alt="Logo" /></a>
         {/* Left section */}
         <div className="space-x-6"> 
-        {/* <a href="/" className=""><img className='w-32 h-32' src={Logo} alt="Logo" /></a> */}
+       
           <a href="/" className="text-lg font-semibold text-black ">Home</a>
           <div className="relative inline-block group">
             <span className="cursor-pointer text-lg font-semibold text-black">Categories</span>
