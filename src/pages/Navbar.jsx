@@ -2,19 +2,19 @@
 import React from 'react';
 import Cart from '../assets/cart2.png';
 import Profile from '../assets/profile.png';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo1.jpg';
 
 const Navbar = () => {
   return (
     <nav className="bg-[#56B0CA] text-white py-3">
       <div className="container m-auto flex justify-between items-center  mt-0 mb-0">
-         <a href="/" className=""><img className='w-32 h-32 ' src={Logo} alt="Logo" /></a>
+         <a href="/" className=""><img className=' h-14 w-36' src={Logo} alt="Logo" /></a>
         {/* Left section */}
         <div className="space-x-6"> 
        
-          <a href="/" className="text-lg font-semibold text-black ">Home</a>
+          <a href="/" className="text-lg font-semibold text-black hover:underline ">Home</a>
           <div className="relative inline-block group">
-            <span className="cursor-pointer text-lg font-semibold text-black">Categories</span>
+            <span className="cursor-pointer text-lg font-semibold text-black hover:underline">Categories</span>
             <div className="absolute left-0 hidden mt-2 space-y-2 group-hover:block bg-white text-black p-2 shadow-md">
               {/* List of categories */}
               <a href="/category/electronics" className="block">Electronics</a>
@@ -22,8 +22,8 @@ const Navbar = () => {
               {/* Add more categories */}
             </div>
           </div>
-          <a href="/contact" className="text-lg font-semibold text-black">Contact</a>
-          <a href="/about" className="text-lg font-semibold text-black">About</a>
+          <a href="/contact" className="text-lg font-semibold text-black hover:underline">Contact</a>
+          <a href="/about" className="text-lg font-semibold text-black hover:underline">About</a>
         </div>
 
         {/* Right section */}

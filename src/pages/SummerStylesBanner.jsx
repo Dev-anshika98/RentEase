@@ -46,7 +46,7 @@ function SummerStylesBanner() {
                 </div>
               </div>
 
-              <a href="#" className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">Shop Collection</a>
+              <a href="#" className="inline-block rounded-md border border-transparent bg-[#1f6174] px-8 py-3 text-center font-medium text-white hover:bg-[#56B0CA] hover:text-black">Shop Collection</a>
             </div>
           </div>
         </div>
