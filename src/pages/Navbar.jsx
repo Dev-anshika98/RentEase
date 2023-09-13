@@ -7,7 +7,7 @@ import Logo from '../assets/logo1.jpg';
 const Navbar = () => {
   return (
     <nav className="bg-[#56B0CA] text-white py-3">
-      <div className="container m-auto flex  justify-between items-center  mt-0 mb-0">
+      <div className="container m-auto flex  justify-between   mt-0 mb-0">
          <a href="/" className=""><img className=' h-14 w-36' src={Logo} alt="Logo" /></a>
         {/* Left section */}
         <div className="space-x-6"> 
